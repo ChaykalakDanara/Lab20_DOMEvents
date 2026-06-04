@@ -18,3 +18,12 @@ title.style.padding = "10px";
 text.style.fontSize = "18px";
 text.style.fontStyle = "italic";
 text.style.color = "darkgreen";
+
+// шаг 5
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", () => {
+    alert("Кнопка нажата!");
+    btn.style.backgroundColor = "#4CAF50";
+    btn.style.color = "white";
+});
